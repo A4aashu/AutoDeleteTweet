@@ -1,0 +1,29 @@
+.sidebarOption{
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left:10px ;
+    padding-bottom: 15px;
+}
+
+.sidebarOption:hover{
+    background-color: #50b7f5;
+    border-radius: 30px;
+    color:blue;
+    transition: #50b7f5 100ms ease-out;
+    
+}
+
+.sidebarOption >h2
+{
+    padding:8px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 10px;
+    
+}
+
+.sidebarOption--active{
+    color:#50b7f5;
+}
